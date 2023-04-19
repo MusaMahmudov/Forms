@@ -1,0 +1,51 @@
+main {
+  margin: auto;
+  width: 42%;
+}
+main form .FullName {
+  display: flex;
+  margin-bottom: 10px;
+}
+main form .FullName .Name {
+  margin-left: 60px;
+}
+main form .FullName .Name2 {
+  margin-left: 20px;
+  width: 33%;
+}
+input {
+  height: 25px;
+  margin-bottom: 10px;
+  width: 99%;
+  border: 3px solid gray;
+}
+
+main form .Location {
+  display: flex;
+}
+
+input[type="radio"] {
+  width: 5%;
+  height: 10%;
+}
+select {
+  width: 99%;
+  height: 25px;
+  border: 3px solid gray;
+}
+main form .Like {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+main form .Like input[type="radio"] {
+  height: 10px;
+  width: 10px;
+}
+main form input[type="checkbox"] {
+  margin: 0;
+  width: 6%;
+}
+main form #Conditions {
+  text-align: center;
+}

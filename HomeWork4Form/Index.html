@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <h1>Simple Form Design</h1>
+        <div class="FullName">
+          <div class="Name1">
+            <label for="Name">First Name</label><br />
+            <input type="text" id="Name" />
+          </div>
+          <div class="Name">
+            <label for="LastName">Last Name</label><br />
+            <input type="text" id="LastName" />
+          </div>
+          <div class="Name2">
+            <label for="Mobil">Mobile</label><br />
+            <input type="number" />
+          </div>
+        </div>
+        <label for="Email">Email</label><br />
+        <input type="email" />
+        <label for="Address">Address Line</label><br />
+        <input type="text" />
+
+        <div class="FullName">
+          <div class="Name1">
+            <label for="Street">Street</label><br />
+            <input type="text" id="Street" />
+          </div>
+          <div class="Name">
+            <label for="PostalCode">Postal Code</label><br />
+            <input type="text" id="PostalCode" />
+          </div>
+          <div class="Name">
+            <label for="City">City</label><br />
+            <input type="text" />
+          </div>
+        </div>
+
+        <label for="Gender">Gender</label><br />
+
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender" />
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Gender" />
+        <br />
+        <label for="Country">Country</label>
+        <select name="Country-Select" id="Country">
+          <option value="USA">USA</option>
+          <option value="UK">Uk</option>
+          <option value="Germany">Germany</option>
+          <option value="Spain">Spain</option>
+        </select>
+
+        <div class="Like">
+          <div class="beverage">
+            <label for="beverage">I Like</label><br />
+            <label for="Cola">Cola</label>
+            <input type="radio" id="Cola" name="i like" />
+            <label for="Soda">Soda</label>
+            <input type="radio" id="Soda" name="i like" />
+          </div>
+
+          <div class="Css">
+            <label for="styles">I Love</label><br />
+
+            <label for="CSS">CSS</label>
+            <input type="radio" id="CSS" name="style" />
+            <label for="styles">SCSS</label>
+            <input type="radio" id="CSS" name="style" />
+          </div>
+        </div>
+
+        <label for="Message">Message</label><br />
+        <textarea name="Message" id="Message" cols="85" rows="10"></textarea>
+
+        <input type="checkbox" />
+        <label for="Conditions" id="Conditions"
+          >I accept terms and conditions</label
+        >
+      </form>
+    </main>
+  </body>
+</html>
